@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: antiquewhite;
+}
+.title {
+    font-size: 40px;
+    margin-left: 8px;
+    text-align: center;
+    background-color: rgb(255 175 71);
+}
+
+.main-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2px;
+}
+
+a {
+    display: block;
+}
+
+div {
+    font-size: 20px;
+    font-family: "Times New Roman", Garamond, serif;
+}
+
+.first {
+    background-color: #d5f0ec;
+    width: 1100px;
+    margin: 8px auto;
+    border: 2px solid #73b7ae;
+    padding: 10px;
+    text-align: center;
+}
+
+.first a {
+    width: 200px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.second {
+    background-color: #cc98c1;
+    width: 1100px;
+    margin: 8px auto;
+    border: 2px solid #b5489f;
+    text-align: center;
+    padding: 10px;
+}
+
+.second a {
+    width: 200px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.third {
+    background-color: rgb(135, 221, 192);
+    width: 1100px;
+    margin: 8px auto;
+    border: 2px solid rgb(57 162 127);
+    text-align: center;
+    padding: 10px;
+}
+
+.third a {
+    width: 200px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.ingredients li {
+    color: #5170b1;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+
+.header{
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.header.main {
+    font-size: 30px;
+    text-align: center;
+}
+
+.strong {
+    color: hsl(0, 100%, 51%)
+}
+
+.text {
+    font-size: 18px;
+}
+
+.text.description {
+    color: rgb(5, 66, 32);
+}
+
+.text.steps {
+    color: #680a53;
+}
+
+img.mac {
+    width: 750px;
+    height: 563px;
+}
